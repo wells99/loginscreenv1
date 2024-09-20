@@ -49,3 +49,8 @@ input[type="submit"]{
 input::placeholder, span{
     color: rgb(237, 239, 230);
 }
+
+input[type="submit"]:hover{
+    background-color: aliceblue;
+    transition: 1.3s;
+}
