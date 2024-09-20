@@ -1,0 +1,51 @@
+*{
+    font-family: monospace;
+    font-weight: 600;
+}
+
+body{
+ 
+    display: grid;
+    place-items: center;
+}
+
+.container{
+    padding: 10px;
+    background-color: rgb(54, 49, 49);
+    width: 25rem;
+    height: 26rem;
+    text-align: center;
+    border-radius: 5%;
+    color: turquoise;
+    
+}
+
+.container input{
+    
+    width: 80%;
+    background-color: rgb(110, 99, 99);
+    height: 30px;
+    border: 0;
+    border-radius: 5px;
+    padding: 5px;
+    outline: none;
+    color: black;
+}
+
+input{
+    margin: 5px;
+}
+span{
+    margin: 15px;
+    display: block;
+    cursor: pointer;
+}
+
+input[type="submit"]{
+    background-color: turquoise;
+    cursor: pointer;
+}
+
+input::placeholder, span{
+    color: rgb(237, 239, 230);
+}
